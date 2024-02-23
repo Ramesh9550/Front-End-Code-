@@ -1,0 +1,27 @@
+ul{
+list-style-type:none;
+
+
+}
+li a{
+    text-decoration: none;
+}
+li{
+    list-style-type:none;
+}
+a:visited{
+    color:crimson;
+}
+a:hover{
+    border: 3px solid black;
+    background-image: url('./images/img3.webp');
+    padding: 100px 30px 30px 30px;
+   
+}
+a:active{
+    color: forestgreen;
+}
+a:link{
+    color: blueviolet;
+}
+

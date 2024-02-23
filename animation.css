@@ -1,0 +1,77 @@
+body{
+    background-image: url(./images/img5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* css properties*/
+#x{
+    text-align: center;
+    animation-name: backcolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+h1{
+color: blue;
+}
+h2{
+    color: darkgoldenrod;
+}
+
+/* @keyframes */
+@keyframes backcolor{
+   /* 0%{background-color: chocolate;}
+    25%{background-color: rgb(83, 51, 151);}
+    50%{background-color: rgb(46, 22, 5);}
+    75%{background-color: rgb(17, 116, 66);}
+    100%{background-color: rgb(123, 144, 187);}*/
+    from{background-color: chartreuse;}
+    to{background-color: aqua   ;}
+}
+h3{
+    background-color:red;
+    width: 30%;
+    animation-name: scrolling;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+#one{
+    animation-timing-function: ease;
+    -o-animation-direction: normal;
+    animation-fill-mode: none;
+}
+#two{
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+#three{
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+
+}
+#four{
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+
+}
+#five{
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+#six{
+    animation-timing-function: ease-in;
+    -o-animation-direction: alternate;
+}
+
+@keyframes scrolling
+{
+    from{margin-left: 60%; background-color: darkviolet;}
+    to{margin-left: 0%; background-color:yellow;}
+}
+
+

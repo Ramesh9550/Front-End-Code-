@@ -1,0 +1,23 @@
+*
+{
+ text-align: center;
+ margin: 0%;
+ padding: 0%;
+}
+
+
+#x
+{
+    color: aqua;
+background-color: blue;
+}
+#y
+{
+    color: crimson;
+    background-color: chartreuse;
+}
+.z
+{
+    color: cornflowerblue;
+    background-color: rgb(123, 168, 123);
+}
